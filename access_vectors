@@ -446,7 +446,8 @@ class capability2
 	mac_admin	# unused by SELinux
 	syslog
 	wake_alarm
-	block_suspend
+	sys_mount
+	block_suspend # not part of our kernel
 }
 
 #
